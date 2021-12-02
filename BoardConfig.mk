@@ -51,7 +51,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest.xml
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2020-08-05
+VENDOR_SECURITY_PATCH := 2020-12-05
 
 # Inherit the proprietary files
 -include vendor/asus/X00TD/BoardConfigVendor.mk

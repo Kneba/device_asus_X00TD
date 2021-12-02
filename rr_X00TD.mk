@@ -21,8 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 
 # Inherit some common RR stuff
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
-# Inherit from whyred device
+# Inherit from X00TD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 PRODUCT_BRAND := asus
@@ -48,5 +49,5 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # RR Stuffs
 TARGET_FACE_UNLOCK_SUPPORTED := true
-RR_BUILDTYPE := Official
+RR_BUILDTYPE := 1つのメモリ
 BUILD_RR_WALLPAPERS:= true
