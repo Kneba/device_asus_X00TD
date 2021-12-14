@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- amyROM Device Info -->
+    <string name="amy_device_platform_summary">SDM660</string>
+    <string name="amy_chipset_type_summary">Qualcomm Snapdragon™ 636</string>
+    <string name="amy_gpu_summary">Adreno 509</string>
+    <string name="amy_camera_mp_summary">13MP+8MP Dual Camera</string>
+    <string name="amy_screen_type_summary">IPS LCD HD+ 5.99 Screen</string>
+
+    <!-- amyROM Maintainer name -->
+    <string name="amyrom_maintainer">Kneba</string>
+</resources>
