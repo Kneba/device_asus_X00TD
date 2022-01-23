@@ -8,5 +8,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/amy_X00TD.mk
 
 COMMON_LUNCH_CHOICES := \
-    amy_X00TD-userdebug
+    amy_X00TD-user \
+    amy_X00TD-userdebug \
+    amy_X00TD-eng
 
