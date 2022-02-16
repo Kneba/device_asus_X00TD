@@ -5,10 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_X00TD.mk
+    $(LOCAL_DIR)/styx_X00TD.mk
 
 COMMON_LUNCH_CHOICES := \
-    potato_X00TD-user \
-    potato_X00TD-eng \
-    potato_X00TD-userdebug
+    styx_X00TD-user \
+    styx_X00TD-eng \
+    styx_X00TD-userdebug
 
