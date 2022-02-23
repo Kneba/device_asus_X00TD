@@ -11,8 +11,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 
 # Inherit some common Project 404 stuff
 $(call inherit-product, vendor/404/configs/common.mk)
-$(call inherit-product, vendor/google/pixel/config.mk)
-$(call inherit-product, vendor/google/gms/config.mk)
 P404_BUILDTYPE := RIPPA
 TARGET_GAPPS_ARCH := arm64
 
