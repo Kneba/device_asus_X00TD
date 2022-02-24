@@ -5,10 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lighthouse_X00TD.mk
+    $(LOCAL_DIR)/xtended_X00TD.mk
 
 COMMON_LUNCH_CHOICES := \
-    lighthouse_X00TD-user \
-    lighthouse_X00TD-eng \
-    lighthouse_X00TD-userdebug
+    xtended_X00TD-user \
+    xtended_X00TD-eng \
+    xtended_X00TD-userdebug
 

@@ -10,15 +10,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit some common Lighthouse stuff.
-$(call inherit-product, vendor/lighthouse/config/common.mk)
+$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+
+# Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
-LIGHTHOUSE_BUILD_TYPE := UNOFFICIAL
 
 # Inherit from X00TD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lighthouse_X00TD
+PRODUCT_NAME := xtended_X00TD
 PRODUCT_DEVICE := X00TD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := Zenfone Max Pro M1
