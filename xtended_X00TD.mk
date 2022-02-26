@@ -15,14 +15,10 @@ $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Face unlock
-TARGET_USES_FACE_UNLOCK := true
-
 # Xtended stuff
 XTENDED_BUILD_TYPE := UNOFFICIAL
 XTENDED_BUILD_MAINTAINER := Kneba
-
-PROCESSOR_MODEL := SDM660
+PROCESSOR_MODEL := SD636
 
 # Inherit from X00TD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
