@@ -22,6 +22,8 @@ TARGET_USES_FACE_UNLOCK := true
 XTENDED_BUILD_TYPE := UNOFFICIAL
 XTENDED_BUILD_MAINTAINER := Kneba
 
+PROCESSOR_MODEL := SDM660
+
 # Inherit from X00TD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
