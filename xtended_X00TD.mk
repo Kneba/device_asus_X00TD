@@ -18,6 +18,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Face unlock
 TARGET_USES_FACE_UNLOCK := true
 
+# Xtended stuff
+XTENDED_BUILD_TYPE := UNOFFICIAL
+XTENDED_BUILD_MAINTAINER := Kneba
+
 # Inherit from X00TD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
