@@ -9,8 +9,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common Lighthouse stuff.
-$(call inherit-product, vendor/xtended/config/common_full.mk)
+# Inherit some common Project Xtended stuff.
+$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
