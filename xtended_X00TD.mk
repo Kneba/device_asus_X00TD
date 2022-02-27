@@ -18,7 +18,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Xtended stuff
 XTENDED_BUILD_TYPE := UNOFFICIAL
 XTENDED_BUILD_MAINTAINER := Kneba
-PROCESSOR_MODEL := SD636
+PROCESSOR_MODEL := SDM660
 
 # Inherit from X00TD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
