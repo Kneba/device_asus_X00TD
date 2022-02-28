@@ -9,19 +9,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common Project Xtended stuff.
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
-
-# Boot animation
-TARGET_BOOT_ANIMATION_RES := 1080
-
-# Xtended stuff
-XTENDED_BUILD_TYPE := UNOFFICIAL
-XTENDED_BUILD_MAINTAINER := Kneba
-XTENDED_BUILD_DONATE_URL := https://www.paypal.me/benkz29
-XTENDED_BUILD_SUPPORT_URL := https://t.me/wzrdgrp
-
-PROCESSOR_MODEL := SDM636
+# Inherit some common xdroid stuff.
+$(call inherit-product, vendor/xdroid/config/common.mk)
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_SUPPORTS_QUICK_TAP := false
+XDROID_BOOT := 1080
 
 # Inherit from X00TD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
