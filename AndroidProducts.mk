@@ -5,10 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_X00TD.mk
+    $(LOCAL_DIR)/aosp_X00TD.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_X00TD-user \
-    bliss_X00TD-eng \
-    bliss_X00TD-userdebug
+    aosp_X00TD-user \
+    aosp_X00TD-eng \
+    aosp_X00TD-userdebug
 
