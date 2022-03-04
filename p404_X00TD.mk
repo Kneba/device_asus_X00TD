@@ -9,10 +9,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common Project 404 stuff
+# Inherit some common P404 stuff.
 $(call inherit-product, vendor/404/configs/common.mk)
 P404_BUILDTYPE := RIPPA
+
+# Gapps
 TARGET_GAPPS_ARCH := arm64
+$(call inherit-product, vendor/google/pixel/config.mk)
+$(call inherit-product, vendor/google/gms/config.mk)
+
+# FaceUnlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
