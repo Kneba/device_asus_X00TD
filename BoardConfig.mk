@@ -42,7 +42,7 @@ TARGET_HW_DISK_ENCRYPTION := true
 TARGET_SCREEN_DENSITY := 420
 
 # Kernel
-TARGET_KERNEL_CONFIG := X00TD_defconfig
+TARGET_KERNEL_CONFIG := wizard_defconfig
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest.xml
