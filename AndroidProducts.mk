@@ -5,10 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_X00TD.mk
+    $(LOCAL_DIR)/xdroid_X00TD.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_X00TD-user \
-    xtended_X00TD-eng \
-    xtended_X00TD-userdebug
+    xdroid_X00TD-user \
+    xdroid_X00TD-eng \
+    xdroid_X00TD-userdebug
 
