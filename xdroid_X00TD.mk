@@ -11,12 +11,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 
 # Inherit some common xdroidoss stuff.
 $(call inherit-product, vendor/xdroid/config/common.mk)
-TARGET_SUPPORTS_GOOGLE_RECORDER := false
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
-TARGET_INCLUDE_STOCK_ARCORE := false
-XDROID_MAINTAINER := Kneba
-XDROID_BOOT_DARK := true
 XDROID_BOOT := 1080
+XDROID_MAINTAINER := Kneba
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_SUPPORTS_QUICK_TAP := true
+
+# Product spec
+TARGET_INCLUDE_WIFI_EXT := true
 
 # Inherit from X00TD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
