@@ -5,10 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/amy_X00TD.mk
+    $(LOCAL_DIR)/lineage_X00TD.mk
 
 COMMON_LUNCH_CHOICES := \
-    amy_X00TD-user \
-    amy_X00TD-userdebug \
-    amy_X00TD-eng
+    lineage_X00TD-user \
+    lineage_X00TD-userdebug \
+    lineage_X00TD-eng
 
