@@ -36,7 +36,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-asus
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=ASUS_X00T \
     PRODUCT_NAME=WW_X00T \
-    PRIVATE_BUILD_DESC="walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys"
+    PRIVATE_BUILD_DESC="sdm660_64-user 10 QKQ1 72 release-keys"
 
 # Build fingerprint
 BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys"
