@@ -18,6 +18,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # Gapps flag
 TARGET_GAPPS_ARCH := arm64
+WITH_GAPPS := true
 
 # Inherit from X00TD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
