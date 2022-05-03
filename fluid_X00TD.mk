@@ -26,7 +26,18 @@ PRODUCT_BRAND := asus
 PRODUCT_MODEL := Zenfone Max Pro M1
 PRODUCT_MANUFACTURER := asus
 
+# GApps
 PRODUCT_GMS_CLIENTID_BASE := android-asus
+IS_PHONE := true
+ifeq ($(WITH_GAPPS),true)
+TARGET_INCLUDE_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+endif
+
+PRODUCT_PRODUCT_PROPERTIES += \
+  ro.fluid.maintainer=Kneba \
+  ro.fluid.cpu=SDM636
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=ASUS_X00T \
