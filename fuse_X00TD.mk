@@ -12,6 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit some common FusionOS stuff
 $(call inherit-product, vendor/fuse/config/common.mk)
 FUSE_BUILD_VARIANT := UNOFFICIAL
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
